@@ -1,19 +1,23 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# python
+/venv
 .env
+__pycache__
+
 
 # dependencies
 /node_modules
-/.pnp
+/pnp
 .pnp.js
 
 # testing
-/coverage
+/frontend/coverage
 
 # production
-/build
+/frontend/build
 
 # misc
+/frontend/.vscode
 .DS_Store
 .env.local
 .env.development.local
